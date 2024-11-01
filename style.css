@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    height: 100%;
+    width: auto;
+    background-color: #151515;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Pass-box{
+    height: 270px;
+    width: 210px;
+    border: 1px groove #00ffee;
+    box-shadow: 0 0 4px 0.2px #00ffee,
+                0 0 4px 0.2px #00ffee,
+                0 0 4px 0.2px #00ffee;
+    padding: 10px 30px;
+    background: #080808;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 0 70px;
+    border: 1px solid #00ffee;
+    margin-top: 10px;
+}
+h4{
+    color: #00ffee;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+label{
+    color: #00ffee;
+    font-size: 13px;
+}
+
+input[type="text"]{
+    background-color: #151515;
+    color: #00ffee;
+    font-size: 14px;
+    border: 1px solid #00ffee;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 3px 5px;
+}
+
+#myPassBtn{
+    height: 30px;
+    width: 206px;
+    margin-top: 7px;
+    font-size: 15px;
+    background-color: #00ffee;
+    border: 0px groove #00ffee;
+    border-radius: 2px;
+}
+
+#myResult{
+    color: #00ffee;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.fullResult{
+    animation: loading 2s linear infinite;
+    transition: 3s ease;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@keyframes loading{
+    from{
+        color: #151515;
+        opacity: 0.5;
+    }
+    to{
+        color: #06cabd;
+        opacity: 1;
+    }
+}
